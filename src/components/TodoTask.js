@@ -1,7 +1,11 @@
 import React from 'react';
 
-const TodoTask = () => {
-  return <div>Hello World</div>;
+const TodoTask = (props) => {
+  return (
+    <>
+      <div>{props.todo.text}</div>
+    </>
+  );
 };
 
 export default TodoTask;
