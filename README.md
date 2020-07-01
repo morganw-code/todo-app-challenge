@@ -6,7 +6,7 @@ Some starter code to build a basic todo app has been provided. However, at the m
 
 - Fork the repo and clone
 - Install all the various packages/dependencies
-- Switch to a new branch called "add-todo". If you get stuck, checkout the solution branch but please try solve yourself first
+- Switch to a new branch called "add-todo" and work on the challenge. If you get stuck, checkout the solution branch but please try solve yourself first
 - Once complete create a pull request with the added feature to merge with the master branch
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
