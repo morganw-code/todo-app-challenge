@@ -8,8 +8,14 @@ export const TodoStore = (props) => {
     { id: uuidv4(), text: 'Add tasks' },
   ]);
 
+  const addTodoTask = (todo) => {
+    setTodoTasks((existingTasks) => {
+      return [{ id: uuidv4(), todo }, ...existingTasks];
+    });
+  };
+
   return (
-    <TodoContext.Provider value={{ todoTasks }}>
+    <TodoContext.Provider value={{ todoTasks, addTodoTask }}>
       {props.children}
     </TodoContext.Provider>
   );
